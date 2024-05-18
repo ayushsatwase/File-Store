@@ -11,19 +11,19 @@
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": ""
+      "value": "7091871836:AAEggRT0jhsueKW5fWlH2bO_8Rg7FOniQ-A"
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "6497757690"
+      "value": "6236064398"
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
-      "value": ""
+      "value": "27519357"
     },
     "DATABASE_URL": {
       "description": "Paste your mongo db url",
-      "value": "url"
+      "value": "mongodb+srv://ayushsatvase08:fnCDwTlLGmlRSqa0@cluster0.omimllm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     },
     "DATABASE_NAME":{
       "description": "Enter your DATABASE_NAME ",
@@ -31,15 +31,15 @@
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
-      "value": ""
+      "value": "ad6bfb3def036c6fa3c5f6aa05424f87"
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "-100"
+      "value": "-1001994078834"
     },
     "FORCE_SUB_CHANNEL":{
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
-      "value": "0"
+      "value": "-1001987301397"
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
@@ -48,17 +48,17 @@
     },
     "SHORTLINK_URL": {
       "description": "Your Shortner url. eg: shareus.io",
-      "value": "",
+      "value": "publicearn.com",
       "required": false
     },
     "SHORTLINK_API": {
       "description": "shortner api key",
-      "value": "",
+      "value": "a4c02ab5b398951e6c202176f303d3a0d80dd550",
       "required": false
     },
     "TUT_VID": {
       "description": "Verification tutorial video link",
-      "value": "",
+      "value": "t.me/How_to_download_5/2",
       "required": false
     },
     "PROTECT_CONTENT": {
