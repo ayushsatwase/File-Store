@@ -11,7 +11,7 @@
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": "7091871836:AAEggRT0jhsueKW5fWlH2bO_8Rg7FOniQ-A"
+      "value": "7324071636:AAFs68QGz5B95FeMR_HpBR_Y6FqqogWnuI0"
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
@@ -23,7 +23,7 @@
     },
     "DATABASE_URL": {
       "description": "Paste your mongo db url",
-      "value": "mongodb+srv://ayushsatvase08:fnCDwTlLGmlRSqa0@cluster0.omimllm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+      "value": "mongodb+srv://ayushsatwase:Ay@89898727@cluster0.omimllm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     },
     "DATABASE_NAME":{
       "description": "Enter your DATABASE_NAME ",
@@ -39,32 +39,32 @@
     },
     "FORCE_SUB_CHANNEL":{
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
-      "value": "-1001987301397"
+      "value": "-1002214346114"
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
-      "value": "",
-      "required": false
+      "value": "6236064398",
+      "required": true
     },
     "SHORTLINK_URL": {
       "description": "Your Shortner url. eg: shareus.io",
       "value": "publicearn.com",
-      "required": false
+      "required": true
     },
     "SHORTLINK_API": {
       "description": "shortner api key",
       "value": "a4c02ab5b398951e6c202176f303d3a0d80dd550",
-      "required": false
+      "required": true
     },
     "TUT_VID": {
       "description": "Verification tutorial video link",
       "value": "t.me/How_to_download_5/2",
-      "required": false
+      "required": true
     },
     "PROTECT_CONTENT": {
       "description": "Protect contents from getting forwarded",
-      "value": "False",
-      "required": false
+      "value": "True",
+      "required": true
     }
   },
   "buildpacks": [
