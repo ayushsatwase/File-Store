@@ -5,7 +5,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7091871836:AAEggRT0jhsueKW5fWlH2bO_8Rg7FOniQ-A")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7324071636:AAFs68QGz5B95FeMR_HpBR_Y6FqqogWnuI0")
 
 APP_ID = int(os.environ.get("APP_ID", "27519357"))
 
@@ -13,7 +13,7 @@ APP_ID = int(os.environ.get("APP_ID", "27519357"))
 API_HASH = os.environ.get("API_HASH", "ad6bfb3def036c6fa3c5f6aa05424f87")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002060741840"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002214346114"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "6236064398"))
@@ -22,7 +22,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6236064398"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://ayushsatvase08:fnCDwTlLGmlRSqa0@cluster0.omimllm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://ayushsatwase:Ay@89898727@cluster0.omimllm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #Shortner (token system) 
@@ -34,7 +34,7 @@ IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","://t.me/How_to_download_5/2")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001987301397"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002062932235"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -54,7 +54,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝐒𝐨𝐫𝐫𝐲 {first} �
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>» ʙʏ @justpremium1</b>")
 
 #set True if you want to prevent users from forwarding files from bot
-PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
+PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
 
 #Set true if you want Disable your Channel Posts Share button
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
